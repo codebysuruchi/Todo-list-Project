@@ -104,10 +104,10 @@ function App() {
           </div>
         </div>
         <input
-          className="cursor-pointer my-4"
+          className="cursor-pointer my-5"
           onChange={toggleFinished}
           type="checkbox"
-          checked={showFinished}
+          checked={!showFinished}
         />{" "}
         <label className="my-3 " htmlFor="show">
           Show Finished
